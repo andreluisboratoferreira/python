@@ -8,7 +8,7 @@ print("4 - MULTIPLICAÇÃO")
 
 operacao = int(input("Digite: "))
 
-if operacao <= 5:
+if operacao >= 5:
     print("Essa operação não é compatível!")
 
 num1 = int(input("Primeiro número: "))
@@ -29,4 +29,3 @@ elif operacao == 3:
 elif operacao == 4:
     resultado = num1 * num2
     print(f"{num1} * {num2} = {resultado}")
-    
