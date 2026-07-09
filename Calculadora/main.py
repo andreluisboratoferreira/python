@@ -8,6 +8,9 @@ print("4 - MULTIPLICAÇÃO")
 
 operacao = int(input("Digite: "))
 
+if operacao <= 5:
+    print("Essa operação não é compatível!")
+
 num1 = int(input("Primeiro número: "))
 num2 = int(input("Segundo número: "))
 
